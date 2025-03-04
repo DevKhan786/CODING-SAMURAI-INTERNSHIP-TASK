@@ -9,7 +9,7 @@ const Navbar = () => {
   const { cart } = useCartStore();
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-black bg-opacity-95 backdrop-blur-lg z-50 shadow-xl border rounded-xl">
+    <header className="fixed top-0 left-0 w-full bg-black bg-opacity-95 backdrop-blur-lg z-50 shadow-xl ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 ">
           <Link
